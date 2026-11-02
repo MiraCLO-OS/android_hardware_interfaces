@@ -3,6 +3,14 @@
     Android 17 has special extended support for IRadio for devices launching
     using FCM Level 6.
     -->
+    <hal format="hidl" optional="true">
+        <name>android.hardware.ir</name>
+        <version>1.0</version>
+        <interface>
+            <name>IConsumerIr</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
     <hal format="hidl">
         <name>android.hardware.radio</name>
         <version>1.6</version>
